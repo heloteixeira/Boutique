@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Novo Produto HeloBoutique</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form name="frm" method="post" action="novoproduto.php">
+			<h3>Novo produto</h3>
+			<h5>Título</h5><input type="text" name="titulop">
+			<br><br>
+			<h5>Preço</h5><input type="number" name="precop">
+			<br><br>
+			<h5>Adicione uma foto do produto</h5><input type="file" name="foto">
+			<br><br>
+			<h5>Descrição</h5><textarea rows="4" cols="50" name="descp"></textarea>
+			<br><br>
+			<h5>Tipo</h5><input type="radio" name="tipop" value="roupa">roupa
+  			<input type="radio" name="tipop" value="joia">joia
+			<input type="radio" name="tipop" value="maquiagem">maquiagem
+			<input type="radio" name="tipop" value="perfume">perfume
+			<input type="submit" value="OK">
+		</form>
+	</body>
+</html>
