@@ -9,9 +9,10 @@
 	<head>
 		<title>Comprando HeloBoutique</title>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../assets/cssheloboutique.css">
 	</head>
 	<body>
-
+		<span>HeloBoutique</span>
 		<form name="frm">
 			<h3>Comprar</h3>
 			<h4>Endereço</h3>

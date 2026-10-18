@@ -49,3 +49,71 @@ span{
     display: flex;
     justify-content: center;
 }
+
+.iniciarsessao{
+    font-family: 'Poppins-light', sans-serif;
+    color: #545175;
+    background-color:#f4f4f2;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    height: 10%;
+    border: 2px solid #f4f4f2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.iniciarsessao:hover{
+    transition: all 0.3s ease;
+    transform: translateX(-50%) scale(0.95); 
+    cursor: pointer;
+}
+
+.login{
+    background-color: #545175;
+    color: #f4f4f2;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: left;
+    width: 40%;
+    min-height: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 50px; 
+    box-sizing: border-box;
+    display: grid;
+    align-content: center; 
+}
+
+.login h3, .login h5{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.login h3, .login p{
+    text-align: center;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid #f4f4f2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    color: #f4f4f2;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: #c0c2c2;
+}
